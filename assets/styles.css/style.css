@@ -1,17 +1,79 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 * {
     padding:0;
     box-sizing:border-box;
     margin:0;
+    font-family: Inter, sans-serif;
 }
 
 :root {
---green: hsl(75, 94%, 57%);
+--green: #c5f82a;
 
---white: hsl(0, 0%, 100%);
+--white: #ffffff;
 
---grey 700: hsl(0, 0%, 20%);
---grey 800: hsl(0, 0%, 12%);
---grey 900: hsl(0, 0%, 8%);
+--grey-700: #333333;
+--grey-800: #1f1f1f;
+--grey-900: #141414;
 
 }
 
+/* ==========CONTAINER========== */
+.social-box-container {
+    max-width: 90rem;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========SOCIAL BOX========== */
+.social-box {
+width: 350px;
+height: auto;
+background-color: var(--grey-800);
+border-radius: 1.25rem;
+text-align: center;
+padding: 1.875rem;
+}
+/* ==========SOCIAL PROFILE========== */
+.social-box-profile {
+    color: white;
+}
+
+.social-box-profile h1 {
+    font-weight: 700;
+}
+
+.social-box-profile p:first-of-type {
+    color: var(--green);
+    font-size: 0.875rem;
+}
+
+.social-box-profile p:last-of-type {
+    color: var(--white);
+    font-size: 0.75rem;
+}
+
+.social-box-profile img {
+    border-radius: 100%;
+    width: 40%;
+    height: 50%;
+} 
+/* ==========SOCIAL BUTTONS========== */
+.social-btn a {
+    text-decoration: none;
+    background-color: var(--grey-700);
+    color: var(--white);
+   
+}
+
+.social-btn {
+         margin: 50px 0;
+
+}
