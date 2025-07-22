@@ -8,11 +8,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -27,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the finished Social Links Profile Desktop](./screenshot.jpg)
-![Screenshot of the finished Social Links Profile Mobile](./assets/images/mobile-preview.png)
+![Screenshot of the finished Social Links Profile Desktop](./assets/images/desktop.png)
+![Screenshot of the finished Social Links Profile Mobile](./assets/images/mobile.png)
 
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/Chantal-Yvonne/Social-links-profile.git)
+- Live Site URL: [Live demo](https://chantal-yvonne.github.io/Social-links-profile/)
 
 
 ### Built with
@@ -42,14 +39,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ### What I learned
-
-
-### Continued development
-
+-through this project ,I've improved my understanding on how to properly style interactive elemnts like buttons and links using CSS.I've learned that styling the parent element(<li>) does not always affect the child(<a>).I had to turn inline elements into block-level elements in order for it to fill the full width of its container.
 
 ## Author
 

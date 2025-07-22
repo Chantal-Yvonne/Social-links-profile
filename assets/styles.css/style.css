@@ -62,7 +62,6 @@
     color: var(--white);
     font-size: 0.75rem;
     margin: 0.937rem;
-
 }
 
 .social-box-profile img {
@@ -82,23 +81,17 @@
     font-size: 0.875rem;
     background-color: var(--grey-700);
     border-radius: 0.875rem;
-
 }
 
-/* .social-box-btns a:{
-          color: blue;
-  
-} */
 .social-box-btns li {
     margin: 0.625rem 0;
     list-style: none;
-    
-
 }
 
-.social-box-btns a:hover {
+.social-box-btns a:hover, .social-box-btns a:focus {
     background-color: var(--green);
     color: var(--grey-800);
     font-weight: 600;
     font-size: 0.875rem;
+    outline: none;
 }
