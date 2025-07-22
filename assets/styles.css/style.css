@@ -4,20 +4,20 @@
 }
 
 * {
-    padding:0;
-    box-sizing:border-box;
-    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
     font-family: Inter, sans-serif;
 }
 
 :root {
---green: #c5f82a;
+    --green: #c5f82a;
 
---white: #ffffff;
+    --white: #ffffff;
 
---grey-700: #333333;
---grey-800: #1f1f1f;
---grey-900: #141414;
+    --grey-700: #333333;
+    --grey-800: #1f1f1f;
+    --grey-900: #141414;
 
 }
 
@@ -34,13 +34,14 @@
 
 /* ==========SOCIAL BOX========== */
 .social-box {
-width: 350px;
-height: auto;
-background-color: var(--grey-800);
-border-radius: 1.25rem;
-text-align: center;
-padding: 1.875rem;
+    width: 21.875rem;
+    height: auto;
+    background-color: var(--grey-800);
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 1.875rem;
 }
+
 /* ==========SOCIAL PROFILE========== */
 .social-box-profile {
     color: white;
@@ -48,32 +49,56 @@ padding: 1.875rem;
 
 .social-box-profile h1 {
     font-weight: 700;
+    margin: 0.625rem;
 }
 
 .social-box-profile p:first-of-type {
     color: var(--green);
     font-size: 0.875rem;
+    margin: 1.25rem;
 }
 
 .social-box-profile p:last-of-type {
     color: var(--white);
     font-size: 0.75rem;
+    margin: 0.937rem;
+
 }
 
 .social-box-profile img {
     border-radius: 100%;
     width: 40%;
     height: 50%;
-} 
-/* ==========SOCIAL BUTTONS========== */
-.social-btn a {
-    text-decoration: none;
-    background-color: var(--grey-700);
-    color: var(--white);
-   
 }
 
-.social-btn {
-         margin: 50px 0;
+/* ==========SOCIAL BUTTONS========== */
+.social-box-btns a {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem 4.85rem;
+    background-color: var(--grey-700);
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: var(--grey-700);
+    border-radius: 0.875rem;
 
+}
+
+/* .social-box-btns a:{
+          color: blue;
+  
+} */
+.social-box-btns li {
+    margin: 0.625rem 0;
+    list-style: none;
+    
+
+}
+
+.social-box-btns a:hover {
+    background-color: var(--green);
+    color: var(--grey-800);
+    font-weight: 600;
+    font-size: 0.875rem;
 }
